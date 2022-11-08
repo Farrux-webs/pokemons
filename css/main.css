@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd845;
+}
+.introWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+.logo {
+  margin: auto;
+}
+.inpuitsWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#FilterbyType {
+  display: block;
+  width: 260px;
+  margin-right: 35px;
+  padding: 16px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+border: none;
+appearance: none;
+}
+
+#searchItems{
+    display: block;
+    width: 260px;
+    margin-right: 35px;
+    padding: 16px;
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 15px;
+border: none;
+}
+
+#sortByAlphabet{
+  display: block;
+  width: 260px;
+  margin-right: 35px;
+  padding: 16px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+border: none;
+appearance: none;
+}
+
+#finishButton{
+  display: block;
+  width: 260px;
+  margin-right: 35px;
+  padding: 16px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  border: none;
+}
+
+.cardWrapper{
+  margin-top: 100px;
+}
+.card{
+  width: 307px;
+  padding-top: 30px;
+  background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 20px;
+}
+.card-properties{
+  width: 100%;
+  display: flex;
+}
+.card-body{
+  border-top: 2px solid #000000;
+  padding: 20px 0 37px 30px;
+  margin-top: 68px;
+
+}
+.name{
+  font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin-bottom: 10px;
+
+color: #000000;
+}
+.type{
+  font-family: sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+margin-bottom: 25px;
+
+}
+.weight{
+  font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin-right: 30px;
+color: #000000;
+}
+.age{
+  
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}

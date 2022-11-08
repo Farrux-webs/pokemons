@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- header logo and like -->
+    <div class="container introWrapper">
+        <a href="#" class="logo">
+            <img src="./img/logo.svg" alt="">
+        </a>
+        <img src="./img/Mask.svg" alt="like" class="like">
+    </div>
+
+    <!-- Sorting, Filtering and search -->
+    <div class="container">
+        <div class="inpuitsWrapper">
+            <select id="FilterbyType" class="form-control">
+                <option value="all">all</option>
+            </select>
+            <input type="search" id="searchItems" class="form-control">
+            <select id="sortByAlphabet" class="form-control">
+                <option value="a-z">Aa-Zz</option>
+                <option value="z-a">Zz-Aa</option>
+            </select>
+            <button id="finishButton" class="form-control">Button</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    
+    <!-- cards -->
+    <div class="container">
+        <div class="cardWrapper d-flex justify-content-between flex-wrap">
+
+        </div>
+
+    </div>
+    
+
+
+    <script src="./scripts/plugin.js"></script>
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
